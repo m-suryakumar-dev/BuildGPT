@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LearnGPT.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eec37c2d4f435f7368ef7514f45ad4a39d055206")]
 [assembly: System.Reflection.AssemblyProductAttribute("LearnGPT.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LearnGPT.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

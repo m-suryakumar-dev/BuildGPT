@@ -125,11 +125,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\suryakumar\\Ng+.NET tutorial\\LearnGPT.Api\\LearnGPT.Api\\LearnGPT.Api.csproj",
+      "projectUniqueName": "E:\\suryakumar\\Ng+.NET tutorial\\BuildGPT\\LearnGPT.Api\\LearnGPT.Api\\LearnGPT.Api.csproj",
       "projectName": "LearnGPT.Api",
-      "projectPath": "E:\\suryakumar\\Ng+.NET tutorial\\LearnGPT.Api\\LearnGPT.Api\\LearnGPT.Api.csproj",
+      "projectPath": "E:\\suryakumar\\Ng+.NET tutorial\\BuildGPT\\LearnGPT.Api\\LearnGPT.Api\\LearnGPT.Api.csproj",
       "packagesPath": "C:\\Users\\Mitrah\\.nuget\\packages\\",
-      "outputPath": "E:\\suryakumar\\Ng+.NET tutorial\\LearnGPT.Api\\LearnGPT.Api\\obj\\",
+      "outputPath": "E:\\suryakumar\\Ng+.NET tutorial\\BuildGPT\\LearnGPT.Api\\LearnGPT.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -149,6 +149,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -167,6 +168,7 @@
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
