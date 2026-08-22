@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\suryakumar\\Ng\u002B.NET tutorial\\LearnGPT.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6C47DF-AD7F-41FA-AD29-EF1DA4A3A7A9}|LearnGPT.Api\\LearnGPT.Api.csproj|e:\\suryakumar\\ng\u002B.net tutorial\\learngpt.api\\learngpt.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B6C47DF-AD7F-41FA-AD29-EF1DA4A3A7A9}|LearnGPT.Api\\LearnGPT.Api.csproj|solutionrelative:learngpt.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6C47DF-AD7F-41FA-AD29-EF1DA4A3A7A9}|LearnGPT.Api\\LearnGPT.Api.csproj|e:\\suryakumar\\ng\u002B.net tutorial\\learngpt.api\\learngpt.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6C47DF-AD7F-41FA-AD29-EF1DA4A3A7A9}|LearnGPT.Api\\LearnGPT.Api.csproj|solutionrelative:learngpt.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6C47DF-AD7F-41FA-AD29-EF1DA4A3A7A9}|LearnGPT.Api\\LearnGPT.Api.csproj|e:\\suryakumar\\ng\u002B.net tutorial\\learngpt.api\\learngpt.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6C47DF-AD7F-41FA-AD29-EF1DA4A3A7A9}|LearnGPT.Api\\LearnGPT.Api.csproj|solutionrelative:learngpt.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\suryakumar\\Ng\u002B.NET tutorial\\LearnGPT.Api\\LearnGPT.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "LearnGPT.Api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\suryakumar\\Ng\u002B.NET tutorial\\LearnGPT.Api\\LearnGPT.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "LearnGPT.Api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T06:49:31.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\suryakumar\\Ng\u002B.NET tutorial\\LearnGPT.Api\\LearnGPT.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LearnGPT.Api\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\suryakumar\\Ng\u002B.NET tutorial\\LearnGPT.Api\\LearnGPT.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LearnGPT.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-18T06:14:21.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\suryakumar\\Ng\u002B.NET tutorial\\LearnGPT.Api\\LearnGPT.Api\\Program.cs",
+              "RelativeDocumentMoniker": "LearnGPT.Api\\Program.cs",
+              "ToolTip": "E:\\suryakumar\\Ng\u002B.NET tutorial\\LearnGPT.Api\\LearnGPT.Api\\Program.cs",
+              "RelativeToolTip": "LearnGPT.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T05:38:12.486Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
