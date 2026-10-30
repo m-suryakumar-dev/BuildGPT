@@ -31,7 +31,7 @@ namespace LearnGPT.Api.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -39,7 +39,49 @@ namespace LearnGPT.Api.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Email")
+                        .IsUnique();
+
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("LearnGPT.Api.Models.UserCredential", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("UserCredentials");
+                });
+
+            modelBuilder.Entity("LearnGPT.Api.Models.UserCredential", b =>
+                {
+                    b.HasOne("LearnGPT.Api.Models.User", "User")
+                        .WithOne("UserCredential")
+                        .HasForeignKey("LearnGPT.Api.Models.UserCredential", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("LearnGPT.Api.Models.User", b =>
+                {
+                    b.Navigation("UserCredential");
                 });
 #pragma warning restore 612, 618
         }
