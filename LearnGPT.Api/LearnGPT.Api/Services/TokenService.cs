@@ -58,6 +58,10 @@ namespace LearnGPT.Api.Services
                     user.Email),
 
                 new Claim(
+                    ClaimTypes.Role,
+                    user.Role),
+
+                new Claim(
                     JwtRegisteredClaimNames.Jti,
                     Guid.NewGuid().ToString())
             };

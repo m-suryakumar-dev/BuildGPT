@@ -6,15 +6,18 @@ namespace LearnGPT.Api.Services
 {
     public class UserService
     {
-        public readonly AppDbContext _context;
+        private readonly AppDbContext _context;
 
         public UserService(AppDbContext context)
         {
             _context = context;
         }
+
         public async Task<List<User>> GetAllUsers()
         {
-            return await _context.Users.ToListAsync();
+            return await _context.Users
+                .AsNoTracking()
+                .ToListAsync();
         }
     }
 }
